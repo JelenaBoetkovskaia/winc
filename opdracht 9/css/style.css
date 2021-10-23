@@ -1,0 +1,117 @@
+header {
+	background-color: black;
+	padding: auto;
+	border-color: black;
+	border-radius: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+header ul {
+	list-style-type: none;
+	margin: none;
+	padding: none;
+	overflow: hidden;
+
+}
+
+header li {
+	display: inline;
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+main {
+	border-color: rgb(240, 218, 218);
+	border-style: solid;
+	padding-bottom: 50px;
+	margin: 2px 10px;
+
+}
+
+h1 {
+	color: black; 
+	text-align: center;
+	
+}
+h2,h3 {
+	text-align: center;
+	color: rgb(210, 206, 211); font-size: 1,8em;
+	margin: 0 auto;
+	width: 800px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 200px;
+}
+p {
+	text-align: center;
+}
+
+.button{
+	background-color: black;
+	color: blanchedalmond;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 60px;
+	margin: auto;
+}		
+
+.coupon {
+	width: 250px;
+	padding: 10px;
+	text-align: center;
+	border: 3px dashed #ccc; 
+	color: red;
+	font-family: fantasy;
+	margin-left: 45%;
+	margin-right: 45%;
+}
+
+.container {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.categories ul{
+	text-align: center;
+	list-style: none;
+}
+
+footer {
+	text-align: center;
+}
+@media screen and (max-width: 320px) {
+	h2 {
+		display: none;
+	}	
+	.container {
+		display: none;
+	}
+	.coupon {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media (min-width: 1024px) {
+	body {
+		background-color: rgb(213, 205, 223);
+		color: rgb(9, 0, 10);
+		text-transform: 20px;
+		line-height: 10mm;
+	}
+}
