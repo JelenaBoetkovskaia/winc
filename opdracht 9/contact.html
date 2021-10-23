@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<header>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">Mijn diensten</a></li>
+    <li><a href="blog.html">Blog</a></li>
+  </ul>
+</header>
+
+<body>
+  <h1>Contact</h1>
+  <form name="contact" method="POST" data-netlify="true">
+    <p form>
+      <label>Naam:<input type="text" name="name"></label>
+    </p>
+    <p form>
+      <label>Emailadres:<input type="email" name="email"></label>
+    </p>
+    <p>
+      <label>Telefoon:<input type="tel" name="phone"></label>
+    </p>
+    <p>
+      <label>Leeftijd (18+):<input type="number" name="quantity" min="18" max="150"></label>
+    </p>
+    <p>
+      <label>Geboortedatum:<input type="date" name="birthday"></label>
+    </p>
+    <p>
+      <label>Biografie:<textarea name="message" style="width:400px; height:200px;">In het kort</textarea>
+      </label>
+    </p>
+    <p>Gender:<br>
+      <label>man<input type="radio" name="radio1" value="man"></label>
+      <label>vrouw<input type="radio" name="radio2" value="woman"></label>
+      <label>gender neutral<input type="radio" name="radio3" value="x"></label>
+    </p>
+    <p>Kies je favoriete keuken:<br>
+      <label>Franse<input type="checkbox" name="checkbox1" value="French"></label><br>
+      <label>Italiaanse<input type="checkbox" name="checkbox2" value="Italian"></label><br>
+      <label>Spaanse<input type="checkbox" name="checkbox3" value="Spanish"></label><br>
+      <label>Arabische<input type="checkbox" name="checkbox4" value="Arabic"></label>
+    </p>
+    <p>
+      <label>Download uw laatste recept:<input type="file" name="myfile"></label>
+    </p>
+    <p>
+      <label>Uw recepten website:<input type="url" name="homepage"></label>
+    </p>
+    <p>
+      <button type="reset">Opnieuw instellen</button>
+    </p>
+    <p>
+      <button type="submit">Verzenden</button>
+    </p>
+
+  </form>
+
+  <p class="coupon">100% korting voor de eerste opdachtgever</p>
+</body>
+
+<footer>&copy; 2021 Jelena, Inc.</footer>
+
+</html>
