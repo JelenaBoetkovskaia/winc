@@ -1,0 +1,157 @@
+*  {
+	margin: 0;
+	padding: 0;
+}	
+body  {
+	background-color: #ACAAFF;
+	margin: none;
+}
+
+form {
+    text-align: center;
+	}
+
+h1  {
+	text-align: center;
+	color: black; font-size: 1em;
+}
+
+h2  {
+	text-align: center;
+	color: black; font-size: 0,8em;
+}
+
+img  {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 200px;
+}
+
+p  {
+	text-align: center;
+	}
+
+.conteiner  {
+    background-color: #7879F1;
+    padding: 10px;
+	margin-bottom: 1%;
+	margin-right: 0;
+	border: none;
+	text-align: center;
+    width: 100%;
+}
+
+.box-model-properties  {
+	padding-top: 20%;
+	padding-bottom: 10%;
+	padding-left: none;
+	padding-right: none;
+    border-top: 1px;
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 0%;
+	margin-right: 0%;
+	text-align: center;
+}	
+
+.footer {
+	background-color: #7879F1;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: none;
+	margin-top: 70%;
+	margin-right: none;
+	text-align: center;
+	font-size: 20px;
+	width: 100%;
+	position: absolute;
+	}
+
+.button2  {
+	background: #7879F1;
+	color: black;
+	text-align: center;
+	padding: 2%;
+	border: none;
+	border-radius: 20px;
+	margin: 1%;
+    height: 50px;
+    width: 200px;
+    left: 21px;
+    top: 145px;
+	position: center;
+}
+
+.coupon {
+	width: 250px;
+	padding: 20px;
+	text-align: center;
+	border: 3px dashed #ccc; 
+	color: red;
+	font-family: fantasy;
+	margin: auto;
+}
+
+@media screen and (max-width: 320px) {
+	.img {
+		display: none;
+	}	
+}
+@media screen and (min-width: 1024px) {
+	.coupon {
+		width: 850px;
+		padding: 80px;
+		text-align: center;
+		border: 12px dashed #ccc; 
+		color: black;
+		font-family: fantasy;
+		margin: auto;
+	}
+	img  {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		width: 600px;
+	}
+
+	.button2  {
+		background: #7879F1;
+		color: black;
+		text-align: center;
+		padding: 6%;
+		border: none;
+		border-radius: 40px;
+		margin: 5%;
+		height: 100px;
+		width: 400px;
+		left: 21px;
+		top: 145px;
+		position: center;
+	}	
+
+	h  {
+		text-align: center;
+		color: black; font-size: 2em;	
+	}	
+	h1 h2  {
+		text-align: center;
+		color: black; font-size: 4em;	
+	}	
+	.conteiner  {
+		background-color: #7879F1;
+		padding: 50px;
+		margin-bottom: 1%;
+		margin-right: 0;
+		border: none;
+		text-align: center;
+		width: 100%;
+	}
+}	
