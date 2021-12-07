@@ -52,12 +52,7 @@ console.log(inclVat(10));//12.1
 console.log(inclVat(15));//18.15
 console.log(inclVat(1115));//1349.15
 
-//VAT exercise 2 In this exercise we're going to calculate the base price and VAT amount. 
-//The main function you make should take the amount including VAT and the VAT percentage. 
-//The return value should be an array with two elements: base price and VAT amount. 
-//Again: make sure you use two functions, where the main one calls another function to do part of the calculation.
-
-
+//VAT exercise 2 
 
 const calcVat = (inclPrijs) => {
     const vat = inclPrijs - inclPrijs / 1.21;
