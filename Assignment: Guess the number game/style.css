@@ -1,0 +1,20 @@
+html {
+    font-family: Georgia;
+}
+
+body {
+    text-align: center;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+button{
+	background-color: internal-light-dark;
+	color: black;
+	padding: auto;
+	border-color: black;
+    margin: auto;
+    max-width: 800px;
+    min-width: 480px;
+}
